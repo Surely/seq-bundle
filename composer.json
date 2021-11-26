@@ -1,0 +1,34 @@
+{
+    "name": "surely/seq-bundle",
+    "description": "Sequence Implementation",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "surely",
+            "email": "yuhao.1202@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Indragunawan\\SequenceBundle\\": ""
+        },
+        "exclude-from-classmap": [
+            "Tests/"
+        ]
+    },
+    "require": {
+        "php": ">=8.0.2",
+        "doctrine/doctrine-bundle": "^2.1",
+        "doctrine/orm": "^2.7",
+        "symfony/config": "5.3.*",
+        "symfony/console": "5.3.*",
+        "symfony/dependency-injection": "5.3.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5.10"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
